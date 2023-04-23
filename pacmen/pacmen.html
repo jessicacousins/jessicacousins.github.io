@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pacmen.css" />
+    <title>PacMan</title>
+    <!-- google fonts start here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Poppins&family=Press+Start+2P&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img id="PacMan" src="PacMan1.png" width='200' onclick="Run()" style="position:absolute"> </img>
+    <h1>PacMan</h1>
+    <div id="game">
+      <button onclick="makeOne()" width="200" height="30">Add PacMan</button>
+      <button onclick="update()" width="200" height="30">Start Game</button>
+    </div>
+    <script src="pacmen.js"></script>
+  </body>
+</html>

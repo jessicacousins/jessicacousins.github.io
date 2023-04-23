@@ -1,0 +1,30 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+.on {
+  background: rgb(255, 0, 212);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 5px;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  font-size: 1em;
+  background: rgb(247, 180, 221);
+  color: rgba(33, 16, 100, 0.785);
+  border-radius: 5%;
+}
+
+button {
+  border-radius: 5%;
+  background-color: rgba(117, 190, 221, 0.579);
+  font-size: 1.5em;
+}

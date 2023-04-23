@@ -1,0 +1,194 @@
+.navbar-nav .nav-link {
+  border-radius: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f8cfed93;
+  border-radius: 10px;
+}
+
+.icons {
+  color: rgb(255, 0, 183);
+}
+
+/* header contact area starts here  */
+
+.hero {
+  margin-top: 80px;
+}
+
+.mask {
+  border-radius: 10px;
+}
+
+.nameHere {
+  font-family: "Dancing Script", cursive;
+  font-size: 6em;
+  color: rgb(255, 0, 183);
+}
+
+.email {
+  color: rgb(255, 0, 183);
+}
+
+.btnmask {
+  padding-bottom: 100px;
+}
+
+/* bio area starts here  */
+
+.about-me {
+  padding-bottom: 10px;
+  font-size: 2.3em;
+}
+
+.letterj {
+  border-radius: 50%;
+}
+
+/* on/off switch area  */
+
+.on {
+  background: rgba(213, 137, 14, 0.43);
+}
+
+.off {
+  background-color: rgba(5, 62, 147, 0.525);
+}
+
+.target {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bio-title {
+  font-family: "Permanent Marker", cursive;
+}
+
+.bio {
+  margin-top: 60px;
+  padding: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.video-area {
+  background-color: rgba(204, 241, 241, 0.604);
+  text-align: center;
+  border-radius: 10%;
+}
+
+.video-content {
+  margin-top: 20px;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.bottomYouTubeLink {
+  border-radius: 10px 10px 0px 0px;
+}
+
+h2 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 5em;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(255, 0, 128);
+  font-weight: bold;
+}
+
+.experience-content {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 0, 128, 0.219);
+  padding: 15px 10px 25px 10px;
+  border-radius: 10px;
+}
+
+.edu-title {
+  font-size: 5em;
+  font-family: "Permanent Marker", cursive;
+  color: rgba(6, 255, 205, 0.686);
+}
+
+.coffeecup {
+  margin-top: 50px;
+  border-radius: 10%;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.edu-content {
+  color: rgba(6, 255, 205, 0.686);
+  background-color: #222;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+}
+
+.timeline-panel {
+  padding-bottom: 40px;
+}
+
+.bioPic {
+  border-radius: 10%;
+  margin-right: 29%;
+}
+
+.ace {
+  border-radius: 10%;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+  }
+
+  .bioPic,
+  .ace {
+    margin: 0 auto;
+  }
+}
+
+.progress-intro {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bold;
+  color: rgba(0, 47, 255, 0.833);
+  font-size: 4em;
+}
+
+.carousel:hover {
+  transform: none !important;
+}
+
+.midjourney {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(255, 0, 128);
+}
+
+.mjPhoto {
+  border-radius: 10%;
+  max-width: 40%;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  color: rgb(255, 0, 128);
+}

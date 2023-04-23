@@ -1,0 +1,79 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
+.navbar-color {
+  background-color: rgba(7, 9, 15, 0.475);
+  color: rgb(183, 117, 117);
+  font-family: "Outfit", sans-serif;
+}
+
+.offcanvas-body {
+  background-color: rgba(0, 168, 160, 0.475);
+}
+
+.projectsText1 {
+  margin-top: 30px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+}
+
+.projectsText2 {
+  margin-bottom: 60px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+}
+
+.allCards {
+  border-radius: 10%;
+  text-align: center;
+}
+
+.card1 {
+  background-color: rgba(255, 221, 0, 0.853);
+  box-shadow: 1px 1px 5px 3px yellow;
+  font-family: "Outfit", sans-serif;
+}
+
+.card2 {
+  background-color: rgba(255, 153, 0, 0.704);
+  color: white;
+  box-shadow: 1px 1px 5px 3px rgba(252, 201, 123, 0.875);
+  font-family: "Outfit", sans-serif;
+}
+
+.card3 {
+  background-color: rgba(170, 6, 246, 0.542);
+  color: white;
+  box-shadow: 1px 1px 5px 3px rgba(186, 121, 248, 0.716);
+  font-family: "Outfit", sans-serif;
+}
+
+.card4 {
+  background-color: rgba(248, 1, 232, 0.577);
+  color: white;
+  box-shadow: 1px 1px 5px 3px rgba(245, 132, 237, 0.614);
+  font-family: "Outfit", sans-serif;
+}
+
+.card5 {
+  background-color: rgb(145, 243, 210);
+  box-shadow: 1px 1px 5px 3px rgb(192, 248, 229);
+  font-family: "Outfit", sans-serif;
+}
+
+.card6 {
+  background-color: rgba(250, 3, 94, 0.699);
+  color: white;
+  box-shadow: 1px 1px 5px 3px rgba(248, 130, 173, 0.699);
+  font-family: "Outfit", sans-serif;
+}
+
+.footer {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: rgba(245, 194, 219, 0.964);
+  font-family: "Libre Baskerville", serif;
+}

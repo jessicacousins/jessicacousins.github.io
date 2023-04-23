@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessica Cousins</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+    <!-- bootstrap cdn here  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navbar here with portfolio page link & links to each project github -->
+    <div class="container mb-5">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><ion-icon class="icons" name="home-outline"></ion-icon> Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" href="projects.html"><ion-icon class="icons" name="pizza-outline"></ion-icon> Portfolio Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#bio-area"
+                    ><ion-icon class="icons" name="person-outline"></ion-icon> Bio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#experience-area"
+                    ><ion-icon class="icons" name="ribbon-outline"></ion-icon> Experience</ion-icon></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#education"
+                    ><ion-icon class="icons" name="school-outline"></ion-icon> Education</ion-icon></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#midjourney-area"
+                    ><ion-icon class="icons" name="image-outline"></ion-icon> MidJourney</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="projects.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <ion-icon class="icons" name="logo-github"></ion-icon> Github Project Repo List
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://github.com/jessicacousins/eye-exercise" target="_blank">Eye Exercise</a></li>
+                    <li>
+                    <li><a class="dropdown-item" href="https://github.com/jessicacousins/real-time-bus-tracker" target="_blank">Real-Time Bus Tracker</a></li>
+                    <li>
+                    <li><a class="dropdown-item" href="https://github.com/jessicacousins/pacmen-exercise" target="_blank">PacMen Exercise</a></li>
+                    <li>
+                    <li><a class="dropdown-item" href="https://github.com/jessicacousins/hundred-cell-grid" target="_blank">Hundred Cell Grid</a></li>
+                    <li>
+                    <li><a class="dropdown-item" href="https://github.com/jessicacousins/Eight-Circles-HTML" target="_blank">Z-Index Exercise</a></li>
+                    <li><a class="dropdown-item" href="https://github.com/jessicacousins/Boston-Salaries" target="_blank">Boston Salaries</a></li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="projects.html">Projects & Demos</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <header>
+      <!-- hero starts here with background image -->
+      <div class="container hero">
+        <div
+        class="p-5 mt-5 text-center bg-image-center"
+        style="
+          background-image: url('glowboston.png');
+          height: 400px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 10px;
+        ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-2 mt-2 nameHere">Jessica Cousins</h1>
+              <h4 class="pb-4">Portfolio Page</h4>
+              <h6 class="contact-me">Contact Me: <a class="email" href="mailto:jcousins87@gmail.com">jcousins87@gmail.com</a></h6>
+                <br>
+                <br>
+              <a class="btn btn-outline-light btn-lg m-2 btnmask" href="https://github.com/jessicacousins" role="button" target="_blank"
+                >jessicacousins <ion-icon class="icons" name="logo-github"></ion-icon></a>
+              <a class="btn btn-outline-light btn-lg m-2 btnmask" href="#!" role="button"
+                >LinkedIn <ion-icon class="icons" name="logo-linkedin"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </header>
+    <main>
+      <!-- bio starts here  -->
+      <div class="bio container bio-container" id="bio-area">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="letterj.jpg" alt="letter" class="letterj img-fluid">
+      </div>
+      <div class="col-md-8">
+        <div id="target" class="target">
+          <h3 class="bio-title about-me mt-1 pt-2 mb-2">Meet the Person Behind the Portfolio</h3>
+            <ion-icon class="mb-4" name="logo-html5"></ion-icon>
+            <ion-icon class="mb-4" name="logo-css3"></ion-icon>
+            <ion-icon class="mb-4" name="logo-javascript"></ion-icon>
+            <ion-icon class="mb-4" name="logo-nodejs"></ion-icon>
+          <p>
+           Experienced Regional Director with a demonstrated history of success in the human service industry. As a dedicated professional, I possess a broad range of skills including nonprofit organizations, negotiation, quality management, volunteer management, disability services, employment, residential, clinical & day programs, senior services, education, and workforce development. Additionally, I'm currently enhancing my skill set by developing expertise in FullStack Development. Please feel free to take a look at my resume for further details on my qualifications! I hope you enjoy exploring my page, and I would be excited for the opportunity to collaborate on any projects! 
+          </p>
+          <button class="mb-4 on-button off" onclick="off()"><ion-icon name="moon-outline"></ion-icon></button>
+          <button class="mb-4 off-button highlight on" onclick="on()"><ion-icon name="sunny-outline"></ion-icon></button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- YouTube Video here  -->
+   <div class="mt-5 border border-1 border-dark w-50 mx-auto pt-5 ps-3 mb-4 video-area">
+      <iframe width="560" height="315" src="https://youtube.com/embed/eycjk3APuoI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br>
+          <p class="video-content">
+          I am an experienced professional in the health and human services field. I have a passion for helping others and have spent the past several years working in various roles within the industry. Most recently, I served as the Director of Day Habilitation Operations at Bridgewell based out of Danvers, MA, where I oversaw their day habilitation funded programs. Prior to this, I worked as the Regional Director at Viability based out of Salem, MA, managing a diverse team across multiple programs and funding sources.
+          </p>
+          <p class="mt-4 video-content">
+          Throughout my career, I have had the opportunity to launch new programs, develop innovative service models, and ensure compliance with regulations and audits. I have also had the pleasure of hiring and developing staff, setting goals and targets, and networking with local committees and collaboratives.
+          </p>
+          <p class="mt-4 video-content">In 2020, amidst the pandemic, I successfully managed a healthcare facility at American Training, and played a vital role in addressing the various challenges that arose during those unprecedented times. I have the ability to adapt to changes, respond to challenges, and create new programs while delivering high-quality services to clients.
+          </p>
+          <p class="mt-4 video-content"> My dedication to my work and my commitment to helping those in need has allowed me to make a meaningful impact in the lives of countless individuals and their families. I look forward to continuing to do so in my future endeavors!
+          </p>
+            <div class="video-content w-50 mx-auto text-center bg-dark text-white bottomYouTubeLink">
+          Watch Here on YouTube <ion-icon class="icons pt-1 pl-2" name="logo-youtube"></ion-icon>
+            </div>
+    </div>
+      <!-- resume & skills here    -->
+      <div class="container" id="experience-area">
+        <section id="skills" class="container-fluid mt-4">
+          <h2 class="skills-title">Expertise and Experience</h2>
+          <div class="row text-center experience-content mb-4">
+            <div class="col-md-4">
+              <h4><strong>Programming Languages</strong> </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">HTML5</li>
+                  <li class="list-group-item">CSS</li>
+                  <li class="list-group-item">JavaScript</li>
+                  <li class="list-group-item">Node.js</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <h4><strong>Frameworks & Libraries</strong></h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Jest</li>
+                  <li class="list-group-item">Google Maps API</li>
+                  <li class="list-group-item">Google Fonts</li>
+                </ul>
+          </div>
+          <div class="col-md-4">
+            <h4><strong>Tools & Software</strong></h4>
+              <ul class="list-group">
+                <li class="list-group-item">Git</li>
+                <li class="list-group-item">VS Code</li>
+                <li class="list-group-item">MidJourney</li>
+                <li class="list-group-item">Agile</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <!-- Education Section -->
+      <section id="education" class="container-fluid mb-3 edu-section">
+        <div class="education-container">
+          <img class="bioPic mt-5 mb-5" src="bioPic.jpg" alt="" style="max-width: 30%;">
+          <img class="ace mt-5 mb-5" src="acecert.png" alt="" style="max-width: 40%;">
+        </div>
+        <ul class="timeline edu-content">
+          <h2 class="edu-title pb-5">Education and Training</h2>
+               <img class="coffeecup" src="./AI Art/coffee.jpg" alt="" style="float: right; max-width: 30%;">
+          <li>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">
+                  Bachelor's Degree in History
+                </h4>
+                <h5>Minor in Geography</h5>
+                <p>
+                  <small class="edu-content"
+                    >2011</small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p><em>Salem State University</em></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Certificate in Coding: Full Stack Development with MERN</h4>
+                <p>
+                  <small class="edu-content"
+                    >2023</small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p><em>Certificate of Completion from</em> <strong>MIT xPRO</strong></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">ACE Certified Personal Trainer</h4>
+                <p>
+                  <small class="edu-content"
+                    ><i class="fa fa-clock-o"></i> 2014 - 2024</small>
+                </p>
+              </div>
+              <div class="timeline-body">
+                <p><em>Certificate of Completion from</em> <strong>ACE Fitness</strong></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- progress bar here  -->
+      <div class="container">
+        <h1 class="progress-intro">Fullstack Developer Progress Bar</h1>
+        <div class="progress">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 55%"
+          ></div>
+        </div>
+      </div>
+    </main>
+      <br>
+       <!-- carousal here of midjourney AI art   -->
+    <div class="container mb-5 midjourney-area" id="midjourney-area">
+      <div id="carouselFade" class="carousel slide carousel-fade mt-5" data-bs-ride="carousel" data-bs-interval="2500" data-bs-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./AI Art/turtle.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="turtle"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/ship.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="ship"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/butterfly.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="butterfly"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/farmcat.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="farmcat"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/cuteskunk.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="cuteskunk"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/wolf.jpg"
+              class="d-block mx-auto mjPhoto" 
+              alt="wolf"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/keyboard.jpg"
+              class="d-block mx-auto mjPhoto" 
+              alt="keyboard"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/seaturtle.jpg"
+              class="d-block mx-auto mjPhoto" 
+              alt="seaturtle"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/book.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="book"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/hummingbird.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="hummingbird"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/fox.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="fox"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/snowflake.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="snowflake"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/goldkittie.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="goldkittie"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/nighttown.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="nighttown"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/pinetree.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="pinetree"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/storebunny.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="storebunny"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/purpletreehouse.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="purpletreehouse"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/bee.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="bee"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/shark.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="shark"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/jungle.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="jungle"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/townview.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="townview"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/coatbunny.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="coatbunny"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/river.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="river"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/mushroomland.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="mushroomland"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./AI Art/oceancity.jpg"
+              class="d-block mx-auto mjPhoto"
+              alt="oceancity"
+            />
+          </div>
+        </div>
+      </div>
+      <h4 class="midjourney">AI Midjourney Art</h4>
+    </div>
+    <!-- footer -->
+      <div class="container footer">
+        <footer class="container-fluid">
+          <p>&copy; 2023 Jessica Cousins. All Rights Reserved.</p>
+        </footer>
+      </div>
+    <!-- bootstrap js starts here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- icons here  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
