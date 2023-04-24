@@ -60,10 +60,12 @@
 
 .on {
   background: rgba(213, 137, 14, 0.43);
+  border-radius: 5px;
 }
 
 .off {
   background-color: rgba(5, 62, 147, 0.525);
+  border-radius: 5px;
 }
 
 .target {
@@ -97,6 +99,9 @@
 
 .bottomYouTubeLink {
   border-radius: 10px 10px 0px 0px;
+}
+.youTubePink {
+  color: rgb(0, 255, 81);
 }
 
 h2 {
