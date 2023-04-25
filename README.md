@@ -4,6 +4,10 @@
 
 The purpose of this website is to showcase my personal skills, provide an overview of portfolio projects, and give a sense of my background and experience. It has been built using HTML, CSS, and JavaScript and utilizes popular frameworks like Bootstrap and Google Fonts for styling.
 
+## How to use
+
+Clone the repository. Open the project files in your coding editor like VS. Open the HTML file in your browser.
+
 ## Roadmap of future improvement
 
 Will update the portfolio as new projects are completed.
