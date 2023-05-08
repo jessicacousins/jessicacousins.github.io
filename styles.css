@@ -133,11 +133,14 @@ h2 {
   font-size: 75px;
   font-family: "Permanent Marker", cursive;
   color: rgba(6, 255, 205, 0.686);
+  overflow: hidden;
 }
 
-.coffeecup {
-  margin-top: 50px;
+.edu-section img {
+  max-width: 40%;
   border-radius: 10%;
+  float: right;
+  z-index: 4;
 }
 
 .education-container {
