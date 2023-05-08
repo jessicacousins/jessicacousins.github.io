@@ -32,7 +32,7 @@
 
 .nameHere {
   font-family: "Dancing Script", cursive;
-  font-size: 6em;
+  font-size: 75px;
   color: rgb(255, 0, 183);
 }
 
@@ -114,7 +114,7 @@ h2 {
 }
 
 .skills-title {
-  font-size: 5em;
+  font-size: 75px;
   font-family: "Permanent Marker", cursive;
   color: rgb(255, 0, 128);
   font-weight: bold;
@@ -128,7 +128,7 @@ h2 {
 }
 
 .edu-title {
-  font-size: 5em;
+  font-size: 75px;
   font-family: "Permanent Marker", cursive;
   color: rgba(6, 255, 205, 0.686);
 }
@@ -186,7 +186,7 @@ h2 {
   font-family: "Permanent Marker", cursive;
   font-weight: bold;
   color: rgba(0, 47, 255, 0.833);
-  font-size: 4em;
+  font-size: 60px;
 }
 
 .carousel:hover {
@@ -194,7 +194,7 @@ h2 {
 }
 
 .midjourney {
-  font-size: 2em;
+  font-size: 40px;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   color: rgb(255, 0, 128);
@@ -202,7 +202,7 @@ h2 {
 
 .mjPhoto {
   border-radius: 10%;
-  max-width: 40%;
+  max-width: 50%;
   margin-top: 50px;
 }
 
