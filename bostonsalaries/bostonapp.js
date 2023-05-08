@@ -4,7 +4,7 @@ function renderPosts(boston, container) {
   let html = "";
   for (let i = 0; i < len; i++) {
     html +=
-      '<li class="post">' +
+      '<li class="post"></li>' +
       "<h2>" +
       people[i][8] +
       "</h2>" +
@@ -12,7 +12,7 @@ function renderPosts(boston, container) {
       people[i][11] +
       "</h3>";
   }
-  container.innerHTML = '<ul id = "data">' + html + "</ul>";
+  container.innerHTML = '<ul id="data">' + html + "</ul>";
 }
 renderPosts(boston, document.getElementById("container"));
 
@@ -23,16 +23,16 @@ function renderTopSalaries(boston, container) {
   const len = topSalaries.length;
   for (let i = 0; i < len; i++) {
     html +=
-      '<li class="post">' +
-      "<h2>" +
+      '<li class="post"></li>' +
+      "<h2> " +
       topSalaries[i][8] +
-      "</h2>" +
-      "<h3>" +
+      "</h2> " +
+      "<h3> " +
       "$" +
       topSalaries[i][11] +
-      "</h3>";
+      "</h3> ";
   }
-  container.innerHTML = '<ul id = "topSalaries">' + html + "</ul>";
+  container.innerHTML = '<ul id="topSalaries">' + html + "</ul>";
 }
 renderTopSalaries(boston, document.getElementById("container"));
 
@@ -43,7 +43,7 @@ function renderTopEmployees(boston, container) {
   let html = "";
   for (let i = 0; i < len; i++) {
     html +=
-      '<li class="post">' +
+      '<li class="post"></li>' +
       "<h2>" +
       topEmployees[i][8] +
       "</h2>" +
@@ -51,6 +51,6 @@ function renderTopEmployees(boston, container) {
       topEmployees[i][11] +
       "</h3>";
   }
-  container.innerHTML = '<ul id = "topEmployees">' + html + "</ul>";
+  container.innerHTML = '<ul id="topEmployees">' + html + "</ul>";
 }
 renderTopEmployees(boston, document.getElementById("container"));

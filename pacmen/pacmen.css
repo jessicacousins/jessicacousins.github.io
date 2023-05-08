@@ -2,9 +2,20 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+h1 {
+  margin-top: 100px;
+  margin-bottom: 95px;
+  font-family: "Press Start 2P", cursive;
+  color: yellow;
+  font-size: 70px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 button {
   height: 35px;
-  font-size: 1em;
+  font-size: 15px;
   background-color: rgba(0, 187, 255, 0.597);
   color: whitesmoke;
   border-radius: 5%;
@@ -15,13 +26,6 @@ button {
   font-family: "Press Start 2P", cursive;
 }
 
-h1 {
-  font-family: "Press Start 2P", cursive;
-  color: yellow;
-  font-size: 10em;
-  text-align: center;
-}
-
 #PacMan {
-  margin-top: 370px;
+  margin-top: 260px;
 }
