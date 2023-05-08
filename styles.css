@@ -82,6 +82,7 @@
   font-size: 1.2em;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .video-area {
@@ -98,6 +99,7 @@
   margin-right: 30px;
   margin-left: 30px;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .bottomYouTubeLink {
@@ -161,7 +163,7 @@ h2 {
 
 .bioPic {
   border-radius: 10%;
-  margin-right: 29%;
+  margin-right: 5%;
 }
 
 .ace {
@@ -193,17 +195,34 @@ h2 {
   transform: none !important;
 }
 
+.mjPhoto {
+  width: 100%;
+  border-radius: 10%;
+}
+
+@media (min-width: 768px) {
+  .mjPhoto {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .mjPhoto {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mjPhoto {
+    width: 50%;
+  }
+}
+
 .midjourney {
   font-size: 40px;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   color: rgb(255, 0, 128);
-}
-
-.mjPhoto {
-  border-radius: 10%;
-  max-width: 50%;
-  margin-top: 50px;
 }
 
 .footer {
