@@ -13,6 +13,16 @@ body {
   background-color: rgba(0, 168, 160, 0.475);
 }
 
+.navbar-brand {
+  transition: 0.5s;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff, 0 0 160px #fff;
+}
+
 .projectsText1 {
   margin-top: 30px;
   color: white;
@@ -23,6 +33,13 @@ body {
   margin-bottom: 50px;
   color: white;
   font-family: "Libre Baskerville", serif;
+  transition: 0.5s;
+}
+
+.projectsText2:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff, 0 0 160px #fff;
 }
 
 input {
@@ -45,6 +62,11 @@ input {
   background-color: rgba(255, 221, 0, 0.853);
   box-shadow: 1px 1px 5px 3px yellow;
   font-family: "Outfit", sans-serif;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card1:hover {
+  box-shadow: 0px 0px 25px 10px yellow;
 }
 
 .card2 {
@@ -52,6 +74,11 @@ input {
   color: white;
   box-shadow: 1px 1px 5px 3px rgba(252, 201, 123, 0.875);
   font-family: "Outfit", sans-serif;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card2:hover {
+  box-shadow: 0px 0px 25px 10px rgba(252, 201, 123, 0.875);
 }
 
 .card3 {
@@ -59,6 +86,11 @@ input {
   color: white;
   box-shadow: 1px 1px 5px 3px rgba(186, 121, 248, 0.716);
   font-family: "Outfit", sans-serif;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card3:hover {
+  box-shadow: 0px 0px 25px 10px rgba(186, 121, 248, 0.716);
 }
 
 .card4 {
@@ -66,12 +98,22 @@ input {
   color: white;
   box-shadow: 1px 1px 5px 3px rgba(245, 132, 237, 0.614);
   font-family: "Outfit", sans-serif;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card4:hover {
+  box-shadow: 0px 0px 25px 10px rgba(245, 132, 237, 0.614);
 }
 
 .card5 {
   background-color: rgb(145, 243, 210);
   box-shadow: 1px 1px 5px 3px rgb(192, 248, 229);
   font-family: "Outfit", sans-serif;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card5:hover {
+  box-shadow: 0px 0px 25px 10px rgb(192, 248, 229);
 }
 
 .card6 {
@@ -79,6 +121,11 @@ input {
   color: white;
   box-shadow: 1px 1px 5px 3px rgba(248, 130, 173, 0.699);
   font-family: "Outfit", sans-serif;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card6:hover {
+  box-shadow: 0px 0px 25px 10px rgba(248, 130, 173, 0.699);
 }
 
 .footer {

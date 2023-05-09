@@ -71,6 +71,7 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .bio-title {
   font-family: "Permanent Marker", cursive;
 }
@@ -110,6 +111,7 @@ border-radius: 10px;
 .bottomYouTubeLink {
   border-radius: 10px 10px 0px 0px;
 }
+
 .youTubePink {
   color: rgb(0, 255, 81);
 }
